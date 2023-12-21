@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.0.0](https://github.com/keptn/lifecycle-toolkit/compare/cert-manager-v1.2.0...cert-manager-v2.0.0) (2023-12-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename KLT to Keptn ([#2554](https://github.com/keptn/lifecycle-toolkit/issues/2554))
+
+### Features
+
+* **cert-manager:** introduce a no-op implementation of ICertificateWatcher ([#2708](https://github.com/keptn/lifecycle-toolkit/issues/2708)) ([6b5f424](https://github.com/keptn/lifecycle-toolkit/commit/6b5f424f8cf11ca276c73217b1dc837ec40b4102))
+
+
+### Other
+
+* adapt helm charts to the new Keptn naming ([#2564](https://github.com/keptn/lifecycle-toolkit/issues/2564)) ([9ee4583](https://github.com/keptn/lifecycle-toolkit/commit/9ee45834bfa4dcedcbe99362d5d58b9febe3caae))
+* rename Keptn default namespace to 'keptn-system' ([#2565](https://github.com/keptn/lifecycle-toolkit/issues/2565)) ([aec1148](https://github.com/keptn/lifecycle-toolkit/commit/aec11489451ab1b0bcd69a6b90b0d45f69c5df7c))
+* rename KLT to Keptn ([#2554](https://github.com/keptn/lifecycle-toolkit/issues/2554)) ([15b0ac0](https://github.com/keptn/lifecycle-toolkit/commit/15b0ac0b36b8081b85b63f36e94b00065bcc8b22))
+
+
+### Dependency Updates
+
+* update dependency kubernetes-sigs/kustomize to v5.3.0 ([#2659](https://github.com/keptn/lifecycle-toolkit/issues/2659)) ([8877921](https://github.com/keptn/lifecycle-toolkit/commit/8877921b8be3052ce61a4f8decd96537c93df27a))
+* update module github.com/spf13/afero to v1.11.0 ([#2622](https://github.com/keptn/lifecycle-toolkit/issues/2622)) ([f4d705d](https://github.com/keptn/lifecycle-toolkit/commit/f4d705dbed6d5a602c5707cbe62024092384693e))
+* update module golang.org/x/net to v0.19.0 ([#2619](https://github.com/keptn/lifecycle-toolkit/issues/2619)) ([af2d0a5](https://github.com/keptn/lifecycle-toolkit/commit/af2d0a509b670792e06e2d05ab4be261d3bb54f4))
+
 ## [1.2.0](https://github.com/keptn/lifecycle-toolkit/compare/cert-manager-v1.1.0...cert-manager-v1.2.0) (2023-10-30)
 
 
